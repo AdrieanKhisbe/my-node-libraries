@@ -9,6 +9,14 @@
     "eslintplugin"
   ],
   "main": "src/index.js",
+  "homepage": "https://github.com/AdrieanKhisbe/my-node-libraries/tree/master/packages/eslint-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrieanKhisbe/my-node-libraries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdrieanKhisbe/my-node-libraries/issues"
+  },
   "scripts": {
     "lint": "eslint .",
     "_lint": "eslint",
