@@ -1,0 +1,30 @@
+{
+  "name": "@-k/eslint-plugin",
+  "version": "0.0.1-alpha.0",
+  "description": "Personal Configuration for Eslint",
+  "author": "Adriean Khisbe <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.3.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-unicorn": "^12.0.2",
+    "prettier": "^1.18.2",
+    "strip-json-comments": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
