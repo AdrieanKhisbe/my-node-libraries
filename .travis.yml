@@ -5,10 +5,12 @@ node_js:
   - '12'
 cache: npm
 
-env:
-  - PACKAGE: '@-k/eslint-plugin'
+stages:
+  - test
 
 jobs:
   include:
-    - install: npm install
-      script: npm run lerna --scope $PACKAGE test
+    - stage: test
+      name: eslint-plugin
+      install: npm install
+      script: npm run lerna -- --scope=@-k/eslint-plugin run test
