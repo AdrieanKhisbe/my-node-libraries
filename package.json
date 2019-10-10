@@ -5,6 +5,7 @@
   "description": "Personal monorepo for personal node libraries",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "test": "lerna test",
     "lerna": "lerna"
   },
