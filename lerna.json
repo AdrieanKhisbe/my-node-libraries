@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "message": "New release :tada:"
+    }
+  },
+  "version": "independant"
+}
