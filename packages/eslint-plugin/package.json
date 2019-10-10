@@ -10,7 +10,10 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "ava test/basic-safety-net.js"
+    "lint": "eslint",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "ava test/basic-safety-net.js",
+    "test:integration": "ava test/integration.js"
   },
   "peerDependencies": {
     "eslint": ">=6.3.0"
@@ -27,6 +30,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "eslint": "^6.5.1",
+    "eslint-plugin-self": "^1.2.0",
     "lodash": "^4.17.15"
   }
 }

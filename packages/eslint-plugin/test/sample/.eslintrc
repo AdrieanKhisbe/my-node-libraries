@@ -1,0 +1,4 @@
+{
+    "extends": "plugin:self/base",
+    "plugins": ["self"]
+}
