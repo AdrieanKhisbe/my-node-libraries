@@ -29,7 +29,6 @@
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "fp/no-arguments": "error",
         "lodash-fp/consistent-compose": ["error", "pipe"],
         "lodash-fp/consistent-name": [ "error", "_" ],
         "lodash-fp/no-argumentless-calls": "error",
