@@ -7,8 +7,8 @@
 - Set up minimal configuration: :wrench:
     ```json
     {
-    "extends": "plugin:@-k/base",
-    "plugins": ["@-k"]
+        "extends": "plugin:@-k/base",
+        "plugins": ["@-k"]
     }
     ```
 - You're good to go! :wink:

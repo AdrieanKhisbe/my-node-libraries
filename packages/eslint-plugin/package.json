@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test/basic-safety-net.js"
   },
   "peerDependencies": {
     "eslint": ">=6.3.0"
@@ -25,6 +25,8 @@
     "strip-json-comments": "^3.0.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "ava": "^2.4.0",
+    "eslint": "^6.5.1",
+    "lodash": "^4.17.15"
   }
 }

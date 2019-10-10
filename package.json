@@ -5,7 +5,8 @@
   "description": "Personal monorepo for personal node libraries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Tests are coming\" && exit 1"
+    "test": "lerna test",
+    "lerna": "lerna"
   },
   "keywords": [
     "personal",
