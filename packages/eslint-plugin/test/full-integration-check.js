@@ -2,10 +2,8 @@ const test = require('ava');
 const {exec} = require('child_process');
 const {sumBy, size} = require('lodash/fp');
 
-const _ = `${__dirname}/sample`;
-
 const lint = file => new Promise(resolve => {
-    exec(`npm run -s lint -- --config ${_}/.eslintrc ${_}/${file}.js`, (err, stdout, stderr) => {
+    exec(`npm run -s lint -- ${__dirname}/sample/${file}.js`, (err, stdout, stderr) => {
         resolve({err, stdout, stderr});
     });
 });
