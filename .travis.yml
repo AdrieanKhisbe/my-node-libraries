@@ -1,16 +1,22 @@
 language: node_js
-node_js:
-  - '8.16.1'
-  - '10'
-  - '12'
 cache: npm
 
 stages:
   - test
 
+anchors:
+  - &test-eslint-plugin
+    stage: test
+    name: eslint-plugin
+    install: npm install
+    script: npm run lerna -- --scope=@-k/eslint-plugin run test
+
+
 jobs:
   include:
-    - stage: test
-      name: eslint-plugin
-      install: npm install
-      script: npm run lerna -- --scope=@-k/eslint-plugin run test
+    - <<: *test-eslint-plugin
+      node_js: '8.16.1'
+    - <<: *test-eslint-plugin
+      node_js: '10'
+    - <<: *test-eslint-plugin
+      node_js: '12'
