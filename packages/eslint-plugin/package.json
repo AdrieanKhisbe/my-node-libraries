@@ -10,7 +10,8 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint",
+    "lint": "eslint .",
+    "_lint": "eslint",
     "test": "ava test/*.js"
   },
   "peerDependencies": {
