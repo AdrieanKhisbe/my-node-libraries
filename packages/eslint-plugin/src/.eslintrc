@@ -14,7 +14,8 @@
         "lodash-fp",
         "import",
         "json",
-        "unicorn"
+        "unicorn",
+        "markdown"
     ],
     "rules": {
         "prettier/prettier": [ "error", {
@@ -47,6 +48,7 @@
         "lodash-fp/prefer-get": "error",
         "lodash-fp/prefer-identity": ["error", {"arrowFunctions": false}],
         "lodash-fp/use-fp": "error",
+
         "import/default": "error",
         "import/export": "error",
         "import/extensions": "error",
