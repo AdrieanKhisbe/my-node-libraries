@@ -30,6 +30,10 @@
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
+
+        // eslint recommended overrides
+        "require-atomic-updates": "off", // current behavior broken, cf: https://github.com/eslint/eslint/issues/11899
+
         "lodash-fp/consistent-compose": ["error", "pipe"],
         "lodash-fp/consistent-name": [ "error", "_" ],
         "lodash-fp/no-argumentless-calls": "error",
