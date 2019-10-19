@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/AdrieanKhisbe/my-node-libraries/issues"
   },
+  "bin": {
+    "eslint+": "./bin/eslint+"
+  },
   "scripts": {
     "lint": "eslint .",
     "_lint": "eslint",
@@ -26,6 +29,7 @@
     "eslint": ">=6.3.0"
   },
   "dependencies": {
+    "eslint-formatter-pretty": "^2.1.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
