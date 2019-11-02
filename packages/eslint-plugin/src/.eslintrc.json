@@ -4,7 +4,7 @@
         "node": true,
         "commonjs": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": ["eslint:recommended", "plugin:json/recommended-with-comments"],
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
@@ -13,7 +13,6 @@
         "prettier",
         "lodash-fp",
         "import",
-        "json",
         "unicorn",
         "markdown"
     ],
