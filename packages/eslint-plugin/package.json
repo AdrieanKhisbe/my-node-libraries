@@ -12,7 +12,8 @@
   "homepage": "https://github.com/AdrieanKhisbe/my-node-libraries/tree/master/packages/eslint-plugin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdrieanKhisbe/my-node-libraries.git"
+    "url": "git+https://github.com/AdrieanKhisbe/my-node-libraries.git",
+    "directory": "packages/eslint-plugin"
   },
   "bugs": {
     "url": "https://github.com/AdrieanKhisbe/my-node-libraries/issues"
