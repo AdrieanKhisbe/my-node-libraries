@@ -1,6 +1,6 @@
 {
   "name": "@-k/eslint-plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Personal Configuration for Eslint",
   "author": "Adriean Khisbe <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
   "license": "MIT",
