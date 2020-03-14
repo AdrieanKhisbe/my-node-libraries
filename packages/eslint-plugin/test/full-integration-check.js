@@ -4,9 +4,12 @@ const {sumBy, size, isNil} = require('lodash/fp');
 
 const lint = file =>
   new Promise(resolve => {
-    exec(`npm run -s _lint -- --no-ignore ${__dirname}/sample/${file}.js`, (err, stdout, stderr) => {
-      resolve({err, stdout, stderr});
-    });
+    exec(
+      `npm run -s _lint -- --no-ignore ${__dirname}/sample/${file}.js`,
+      (err, stdout, stderr) => {
+        resolve({err, stdout, stderr});
+      }
+    );
   });
 
 test('Some perfectly working file', async t => {
