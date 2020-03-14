@@ -112,10 +112,11 @@
         "unicorn/prefer-node-append": "error",
         "unicorn/prefer-node-remove": "error",
         "unicorn/prefer-text-content": "error",
-        // added from ^12.1.0 to  ^17.2.0
-        "unicorn/prefer-replace-all": "error",
+        // added from ^12.1.0 to ^15.0.1
         "unicorn/prefer-modern-dom-apis": "error",
         "unicorn/prefer-negative-index": "error",
         "unicorn/prefer-trim-start-end": "error"
+        // can't go beyond 16 (17.2 currently as it requires node 10)
+        // "unicorn/prefer-replace-all": "error"
     }
 }

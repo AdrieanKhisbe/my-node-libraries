@@ -39,7 +39,7 @@
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
     "eslint-plugin-markdown": "^1.0.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-unicorn": "^17.2.0",
+    "eslint-plugin-unicorn": "^15.0.1",
     "prettier": "^1.19.1",
     "strip-json-comments": "^3.0.1"
   },
