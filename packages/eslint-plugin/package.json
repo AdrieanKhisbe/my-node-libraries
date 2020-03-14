@@ -1,12 +1,15 @@
 {
   "name": "@-k/eslint-plugin",
   "version": "0.2.0",
-  "description": "Personal Configuration for Eslint",
+  "description": "Personal Configuration by Adriean Khisbe for Eslint",
   "author": "Adriean Khisbe <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslintplugin"
+    "eslint-plugin",
+    "eslintplugin",
+    "linter",
+    "lint"
   ],
   "main": "src/index.js",
   "homepage": "https://github.com/AdrieanKhisbe/my-node-libraries/tree/master/packages/eslint-plugin#readme",
