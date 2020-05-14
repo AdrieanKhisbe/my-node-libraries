@@ -29,6 +29,9 @@
     "_lint": "eslint",
     "test": "ava test/*.js"
   },
+  "engines": {
+    "node": ">=10.20.0"
+  },
   "peerDependencies": {
     "eslint": ">=7.0.0"
   },
