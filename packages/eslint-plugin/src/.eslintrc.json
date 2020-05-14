@@ -4,7 +4,7 @@
         "node": true,
         "commonjs": true
     },
-    "extends": ["eslint:recommended", "plugin:json/recommended-with-comments"],
+    "extends": ["eslint:recommended"],
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
@@ -120,5 +120,11 @@
         "unicorn/prefer-trim-start-end": "error"
         // can't go beyond 16 (17.2 currently as it requires node 10)
         // "unicorn/prefer-replace-all": "error"
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.json"],
+            "extends": ["plugin:json/recommended-with-comments"]
+        }
+    ]
 }
