@@ -21,7 +21,9 @@
             "tabWidth": 2,
             "singleQuote": true,
             "printWidth": 100,
-            "bracketSpacing": false
+            "bracketSpacing": false,
+            "trailingComma": "none",
+            "arrowParens": "avoid"
         }],
         "no-var": "error",
         "object-shorthand": "error",
