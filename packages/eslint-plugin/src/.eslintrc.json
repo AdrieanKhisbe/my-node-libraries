@@ -124,8 +124,7 @@
     "overrides": [
         {
             "files": ["*.json"],
-            "extends": ["plugin:json/recommended-with-comments"],
-            "rules": {} // temporary hack until eslint-plugin-self supports overrides with no rules
+            "extends": ["plugin:json/recommended-with-comments"]
         }
     ]
 }
