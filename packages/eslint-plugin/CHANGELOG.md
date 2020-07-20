@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased][unreleased]
 *Nothing So Far*
 
+## [0.4.1] - 2020-07-20
+Covered in PR [#4]
+
+Just chore dependencies updates.
+
 ## [0.4.0] - 2020-06-30
 Covered in PR [#3]
 
@@ -20,5 +25,6 @@ Covered in PR [#3]
 
 [#3]: https://github.com/AdrieanKhisbe/my-node-libraries/pull/3
 
-[unreleased]:https://github.com/AdrieanKhisbe/my-node-libariesr/compare/@-k/eslint-plugin@0.4.0...master
+[unreleased]:https://github.com/AdrieanKhisbe/my-node-libariesr/compare/@-k/eslint-plugin@0.4.1...master
+[0.4.1]: https://github.com/AdrieanKhisbe/my-node-libraries/compare/@-k/eslint-plugin@0.3.1...@-k/eslint-plugin@0.4.1
 [0.4.0]: https://github.com/AdrieanKhisbe/my-node-libraries/compare/@-k/eslint-plugin@0.3.1...@-k/eslint-plugin@0.4.0
