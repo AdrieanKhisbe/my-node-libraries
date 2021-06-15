@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 # ! FIXME: to improve!!!!
 npx eslint --format=pretty $@
