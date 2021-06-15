@@ -7,8 +7,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased][unreleased]
 *Nothing So Far*
 
+## [0.4.2] - 2021-06-15
+Covered in PR [#7]
+
+Chore dependencies updates and some doc improvements
 ## [0.4.1] - 2020-07-20
-Covered in PR [#4]
+Covered in PR [#6]
 
 Just chore dependencies updates.
 
