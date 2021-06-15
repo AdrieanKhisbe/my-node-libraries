@@ -24,6 +24,10 @@
   "bin": {
     "eslint+": "./bin/eslint+"
   },
+  "files": [
+    "src",
+    "bin"
+  ],
   "scripts": {
     "lint": "eslint .",
     "_lint": "eslint",
