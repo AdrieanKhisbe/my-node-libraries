@@ -14,3 +14,5 @@
     }
     ```
 - You're good to go! :wink:
+
+:open_book: For more details, you can check the [set of rules](./src/.eslintrc.json)
