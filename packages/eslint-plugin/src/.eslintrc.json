@@ -87,6 +87,8 @@
         "import/order": ["error", {"newlines-between": "ignore"}], // conf: see here: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         "import/dynamic-import-chunkname": "error",
         "import/no-cycle": "error",
+
+
         "unicorn/custom-error-definition": "error",
         "unicorn/error-message": "error",
         "unicorn/escape-case": "error",
@@ -103,7 +105,7 @@
         "unicorn/prefer-spread": "error",
         "unicorn/prefer-starts-ends-with": "error",
         "unicorn/prefer-type-error": "error",
-        "unicorn/regex-shorthand": "error",
+        "unicorn/better-regex": "error", // originaly regex-shorthand
         "unicorn/throw-new-error": "error",
         "unicorn/no-console-spaces": "error",
         // "unicorn/no-for-loop": "error",
@@ -117,9 +119,47 @@
         // added from ^12.1.0 to ^15.0.1
         "unicorn/prefer-modern-dom-apis": "error",
         "unicorn/prefer-negative-index": "error",
-        "unicorn/prefer-trim-start-end": "error"
-        // can't go beyond 16 (17.2 currently as it requires node 10)
-        // "unicorn/prefer-replace-all": "error"
+        "unicorn/prefer-trim-start-end": "error",
+        // from 16 to 38
+        "unicorn/prefer-replace-all": "error",
+        // ! FIXME: new to coonfigure! https://github.com/sindresorhus/eslint-plugin-unicorn/releases -> 38
+        "unicorn/prefer-number-properties": "error",
+        "unicorn/prefer-array-find": "error",
+        "unicorn/prefer-math-trunc": "error",
+        "unicorn/numeric-separators-style": "error",
+        "unicorn/prefer-ternary": "error",
+        "unicorn/no-lonely-if": "error",
+        "unicorn/prefer-date-now": "error",
+        "unicorn/prefer-array-some": "error",
+        "unicorn/prefer-default-parameters": "error",
+        "unicorn/consistent-destructuring": "error",
+        "unicorn/prefer-regexp-test": "error",
+        "unicorn/prefer-array-index-of": "error",
+        "unicorn/no-new-array": "error",
+        "unicorn/no-array-for-each": "error",
+        "unicorn/no-array-push-push": "error",
+        "unicorn/no-this-assignment": "error",
+        "unicorn/prefer-array-flat": "error",
+        "unicorn/prefer-array-flat-map": "error",
+        "unicorn/prefer-switch": "error", // minimumCases option, default 3
+        "unicorn/no-static-only-class": "error",
+        "unicorn/no-document-cookie": "error",
+        "unicorn/prefer-object-has-own": "error",
+        "unicorn/prefer-prototype-methods": "error",
+        "unicorn/require-number-to-fixed-digits-argument": "error",
+        "unicorn/require-array-join-separator": "error",
+        "unicorn/prefer-at": "error",
+        "unicorn/prefer-top-level-await": "error",
+        "unicorn/no-array-method-this-argument": "error",
+        "unicorn/prefer-object-from-entries": "error",
+        "unicorn/no-useless-length-check": "error",
+        "unicorn/no-useless-spread": "error",
+        "unicorn/no-useless-fallback-in-spread": "error",
+        "unicorn/no-invalid-remove-event-listener": "error",
+        "unicorn/template-indent": "error", // configurable
+        "unicorn/prefer-export-from": "error"
+        // maybe: prefer-set-has, no-empty-file
+        // non configured: string-content, expiring-todo-comment, import-style, prevent-abbreviations, no-keyword-prefix
     },
     "overrides": [
         {
