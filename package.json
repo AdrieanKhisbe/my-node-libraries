@@ -5,8 +5,7 @@
   "description": "Personal monorepo for personal node libraries",
   "main": "index.js",
   "scripts": {
-    "postinstall": "lerna bootstrap",
-    "test": "lerna test",
+    "test": "lerna run test",
     "lerna": "lerna"
   },
   "keywords": [
@@ -16,7 +15,7 @@
   "author": "Adriean Khisbe <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^8.0.2"
   },
   "dependencies": {}
 }
