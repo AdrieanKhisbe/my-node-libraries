@@ -2,7 +2,7 @@
 
 > Personal configuration for eslint
 
-Requires Node.js 20.19 or newer.
+Requires Node.js 20.19+ on the Node 20 release line, or Node.js 22.12+.
 
 [![npm](https://img.shields.io/npm/v/@-k/eslint-plugin.svg)](https://www.npmjs.com/package/@-k/eslint-plugin)
 
