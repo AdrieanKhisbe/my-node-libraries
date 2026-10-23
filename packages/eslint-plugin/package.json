@@ -34,7 +34,7 @@
     "test": "ava test/*.js"
   },
   "engines": {
-    "node": ">=18.19.0"
+    "node": ">=20.19.0"
   },
   "peerDependencies": {
     "eslint": ">=8.2.0"

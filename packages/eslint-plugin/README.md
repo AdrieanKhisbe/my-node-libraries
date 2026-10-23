@@ -2,6 +2,8 @@
 
 > Personal configuration for eslint
 
+Requires Node.js 20.19 or newer.
+
 [![npm](https://img.shields.io/npm/v/@-k/eslint-plugin.svg)](https://www.npmjs.com/package/@-k/eslint-plugin)
 
 - Install it with `npm install --save-dev @-k/eslint-plugin` :inbox_tray:
