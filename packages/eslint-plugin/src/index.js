@@ -1,11 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-const stripComments = require('strip-json-comments');
+import plugin from './index.cjs';
 
-const CONFIG_FILE = path.join(__dirname, '.eslintrc.json');
-
-const eslintConfig = JSON.parse(stripComments(fs.readFileSync(CONFIG_FILE).toString()));
-
-module.exports = {
-  configs: {base: eslintConfig}
-};
+export const {configs} = plugin;
+export {default} from './index.cjs';

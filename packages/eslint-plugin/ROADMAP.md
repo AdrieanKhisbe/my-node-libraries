@@ -29,3 +29,8 @@ See [eslint-index](https://github.com/wagerfield/eslint-index): CLI for finding 
 See [eslint-nibble](https://github.com/IanVS/eslint-nibble): Ease into ESLint, by fixing one rule at a time
 
 Set up https://github.com/hipstersmoothie/eslint-formatter-github!!
+
+## Updates:
+new rules to check:  eslint-plugin-unicorn    ^38.0.1  →  ^50.0.
+
+a whole refresh is needed :recycle:

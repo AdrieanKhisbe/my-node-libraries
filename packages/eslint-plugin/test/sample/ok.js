@@ -1,3 +1,1 @@
-const yes = 'everything is fine';
-
-module.exports = {yes};
+export const yes = 'everything is fine';

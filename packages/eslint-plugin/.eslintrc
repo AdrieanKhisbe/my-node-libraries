@@ -1,4 +1,6 @@
 {
     "extends": "plugin:self/base",
-    "plugins": ["self"]
+    "plugins": ["self"],
+    "parserOptions": {"ecmaVersion": 2022},
+    "rules": {"import/dynamic-import-chunkname": "off"}
 }

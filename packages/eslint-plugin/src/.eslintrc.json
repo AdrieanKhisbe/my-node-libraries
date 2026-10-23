@@ -56,7 +56,7 @@
 
         "import/default": "error",
         "import/export": "error",
-        "import/extensions": "error",
+        "import/extensions": ["error", "always", {"ignorePackages": true}],
         "import/first": "error",
         "import/imports-first": "error",
         "import/named": "error",
@@ -82,7 +82,7 @@
         "import/no-named-default": "error",
         "import/no-self-import": "error",
         "import/no-unresolved": ["error", {"commonjs": true}],
-        "import/no-useless-path-segments": ["error", {"noUselessIndex": true}],
+        "import/no-useless-path-segments": "error",
         "import/no-webpack-loader-syntax": "error",
         "import/order": ["error", {"newlines-between": "ignore"}], // conf: see here: https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         "import/dynamic-import-chunkname": "error",
@@ -144,7 +144,8 @@
         "unicorn/prefer-switch": "error", // minimumCases option, default 3
         "unicorn/no-static-only-class": "error",
         "unicorn/no-document-cookie": "error",
-        "unicorn/prefer-object-has-own": "error",
+        // This rule assumes Lodash argument order and can corrupt lodash/fp has() calls.
+        "unicorn/prefer-object-has-own": "off",
         "unicorn/prefer-prototype-methods": "error",
         "unicorn/require-number-to-fixed-digits-argument": "error",
         "unicorn/require-array-join-separator": "error",
@@ -162,6 +163,17 @@
         // non configured: string-content, expiring-todo-comment, import-style, prevent-abbreviations, no-keyword-prefix
     },
     "overrides": [
+        {
+            "files": [
+                "test/*.test.js",
+                "**/{test,tests}/**/*.{js,cjs,mjs}",
+                "**/*.{test,spec}.{js,cjs,mjs}"
+            ],
+            "settings": {
+                // AVA exposes conditional exports that the Node import resolver cannot resolve.
+                "import/core-modules": ["ava"]
+            }
+        },
         {
             "files": ["*.json"],
             "extends": ["plugin:json/recommended-with-comments"]
