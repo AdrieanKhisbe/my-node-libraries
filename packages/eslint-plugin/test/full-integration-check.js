@@ -18,7 +18,12 @@ const lint = (file, cli = false) =>
       ],
       {
         cwd: fileURLToPath(new URL('../', import.meta.url)),
-        env: {...process.env, PATH: `${dirname(process.execPath)}:${process.env.PATH}`}
+        env: {
+          ...process.env,
+          FORCE_COLOR: undefined,
+          NO_COLOR: '1',
+          PATH: `${dirname(process.execPath)}:${process.env.PATH}`
+        }
       },
       (err, stdout, stderr) => {
         resolve({err, stdout, stderr});

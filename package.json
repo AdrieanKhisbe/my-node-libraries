@@ -5,6 +5,7 @@
   "description": "Personal monorepo for personal node libraries",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lerna exec -- npm ci",
     "test": "lerna run test",
     "lerna": "lerna"
   },
