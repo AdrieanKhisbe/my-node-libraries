@@ -7,6 +7,7 @@
   "scripts": {
     "postinstall": "lerna exec -- npm ci",
     "test": "lerna run test",
+    "publish": "lerna publish",
     "lerna": "lerna"
   },
   "keywords": [
